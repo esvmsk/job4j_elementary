@@ -6,7 +6,7 @@ public class Variables {
         System.out.println(age);
         float length = 78.0332F;
         System.out.println(length);
-        boolean baby = true;
-        System.out.println(baby);
+        boolean baby1 = true;
+        System.out.println(baby1);
     }
 }
