@@ -4,10 +4,10 @@ public class Greeting {
     public static void main(String[] args) {
         String idea = "I like Java!";
         System.out.println(idea);
-        idea = "I like Java!" + " But I am a newbie. ";
+        idea = idea + " But I am a newbie. ";
         System.out.println(idea);
         int year = 2023;
-        idea = "I like Java!" + " But I am a newbie. " + year;
+        idea = idea + year;
         System.out.println(idea);
 
     }
