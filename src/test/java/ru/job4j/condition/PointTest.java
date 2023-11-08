@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.withPrecision;
 class PointTest {
 
     @Test
-    void distance() {
+    void when00to20then2() {
         double expected = 2;
         int x1 = 0;
         int y1 = 0;
@@ -20,8 +20,8 @@ class PointTest {
     }
 
     @Test
-    void distance1() {
-        double expected = 2.23606797749979;
+    void when11to23then2() {
+        double expected = 2.23;
         int x1 = 1;
         int y1 = 1;
         int x2 = 2;
@@ -31,8 +31,8 @@ class PointTest {
     }
 
     @Test
-    void distance2() {
-        double expected = 2.23606797749979;
+    void when44to23then2() {
+        double expected = 2.23;
         int x1 = 4;
         int y1 = 4;
         int x2 = 2;
